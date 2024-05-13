@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #3A5A40;
-    --secondary-color: #588157;
+    --secondary-color: #000000;
     --accent1-color: #A3B18A;
     --accent2-color: #DAD7CD;
 
@@ -27,7 +27,7 @@
 nav {
     align-items:center ;
     display: flex;
-    color: var(--nav-background-color);
+    color: var(--secondary-color);
     font-size: 1.2rem;
 
 }
@@ -35,7 +35,7 @@ nav {
 nav a { 
     justify-content: space-around;
     width: auto;
-    background-color: var(--nav-background-color);
+    color: var(--secondary-color);
     display: block;
     margin: 1rem;
     padding: 1rem;
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: var(--accent2-color);
 }
 
 nav a:hover {
@@ -55,7 +55,7 @@ nav a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header {
@@ -66,7 +66,7 @@ header, footer {
     display: grid;
     max-width: 900px;
     padding: 20px;
-    background-color: var(--nav-background-color);
+    background-color: var(--primary-color);
 }
 
 body {
@@ -203,7 +203,7 @@ footer p {
     justify-content: center;
     display: inline-block;
     width: 840px;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     ;
 }
 
