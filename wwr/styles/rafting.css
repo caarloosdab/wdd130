@@ -200,7 +200,7 @@ footer {
 
 
 footer p {
-    font-size: medium;
+    font-size: smaller;
     padding: 1rem;
     justify-content: center;
     display: inline-block;
