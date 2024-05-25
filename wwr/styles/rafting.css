@@ -122,7 +122,7 @@ header img {
     padding: 1rem;
 }
 
-article {
+.hero article {
     width: 85%;
     position: absolute;
     left: 67.5px;
@@ -208,4 +208,345 @@ footer p {
     color: var(--accent2-color);
     ;
 }
+
+
+/*Here starts the Contact page styles*/
+
+
+/* Top part*/
+
+#titu{
+    padding: 0px;
+    text-align: center;
+}
+
+
+.top{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 2rem;
+    height: 250px;
+}
+
+.top h1 {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 800px;
+}
+
+.top h4 {
+    margin: 0 auto;
+    align-items: center;
+    width: 500px;
+}
+
+.rectangle1, .rectangle2 {
+    
+    display: inline-block;
+    margin: 20px;
+    margin-top: 40px;
+	width: 286px;
+	height: 185px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #C9D3DD;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.rectangle1 b, .rectangle2 b {
+    margin: 0 auto;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    
+}
+
+.rectangle1 p, .rectangle2 p{
+    font-size: small;
+    display: grid;
+    padding: 5px;
+    margin: 0 auto;
+    width: 250px;
+    }
+
+.rectangle1 a{
+    color: #000000;
+    margin: 0 auto;
+
+}
+
+.rectangle2 button{
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #C9D3DD;
+    
+}
+
+.rectangle2 button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.blank{
+    height: 200px;
+
+}
+
+
+/*The Map part*/
+
+
+.location{
+    display: flex;
+    border-top: 2px solid var(--border-color);
+    
+}
+
+.location aside{
+    display: grid;
+    padding: 30px;
+    margin: 10px;
+    width: 350px;
+}
+
+.location iframe{
+    margin: 0 auto;
+    align-self: flex-end;
+    width: 500px; 
+    height: 650px;
+}
+
+/*  Employees part */
+
+.employees {
+    margin: 0 auto;
+    border-top: 2px solid var(--border-color);
+    background-color: var(--accent1-color);
+    padding-top: 2rem;
+    display: flex;
+    
+}
+
+
+.employees h2 {
+
+    padding: 1rem;
+    align-self: center;
+    justify-content: center;
+    display: block;
+    position: relative;
+}
+
+.employees figure {
+    width: 200px;
+    margin: 20px;
+    
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+
+    
+}
+
+.employees img {
+    align-self: center;
+    width: 150px;
+    grid-column:2/3;
+    grid-row: 2;
+
+    margin: 0 auto;
+}
+
+
+/* Form part */
+
+.form{
+    padding: 3rem;
+    border: 1.5px solid var(--border-color);
+    background-color: var(--accent2-color);
+    display: grid;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.form h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.form p{
+    text-align: center;
+    padding: 20px;
+}
+
+.text label, textarea {
+
+    margin-left: 150px;
+    text-align: left;
+    width: 400px;
+    padding: 5px;
+    font-size: 1.2rem;
+
+}
+
+.text input{
+    justify-content: center;
+    margin-left: 150px;
+    margin: 10px;
+    text-align: left;
+    border: 2px solid var(--border-color);
+    width: 400px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+fieldset legend{
+    margin-left: 150px;
+    text-align: left;
+    
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+fieldset{
+    overflow: hidden;
+    margin: 20px;
+    justify-content: center;
+    border: none;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+.radio{
+    font-size: 1.2rem;
+    
+}
+
+.radio article{
+
+    margin: 10px;
+}
+
+.radio input {
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 20px;
+}
+
+.radio label {
+    margin-left: 50px;
+}
+
+
+
+.message{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.message label{
+    margin-left: 160px;
+}
+
+.message textarea{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+
+.check{
+    margin-top: 50px;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.check label{
+    font-size: 1.2rem;
+    margin-left: 150px;
+
+}
+
+.check input{
+    margin-left: 10px;
+}
+
+input[type=checkbox]{
+    
+    height: 20px;
+}
+
+
+
+
+.form button{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 180px;
+    background-color:var(--nav-background-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form button:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+a img {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: end;
+    width: 40px;
+    text-decoration: none;
+    
+}
+
+footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+
+footer p {
+    font-size: medium;
+    padding: 1rem;
+    justify-content: center;
+    display: inline-block;
+    width: 840px;
+    color: var(--accent2-color);
+    ;
+}
+
 
