@@ -186,7 +186,6 @@ body {
     padding: 30px;
     margin: 10px;
     width: 350px;
-    align-self: flex;
 }
 
 .location iframe{
@@ -308,36 +307,59 @@ fieldset{
 }
 
 
-input[type=radio] {
-    margin: 0.4rem;
-    background-color: #000000;
-}
 
 
 .radio{
     font-size: 1.2rem;
-    margin-left: 150px; 
-    display: inline-block;
+    
 }
+
+.radio article{
+
+    margin: 10px;
+}
+
+.radio input {
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 20px;
+}
+
+.radio label {
+    margin-left: 50px;
+}
+
 
 
 .message{
     font-size: 1.2rem;
-    margin-left: 200px;
+    margin-left: 20px;
 }
+
+.message label{
+    margin-left: 160px;
+}
+
 .message textarea{
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 250px;
 }
 
 
-.checkbox{
-    margin-top: 20px;
+.check{
+    margin-top: 50px;
     display: inline-flex;
-    margin-left: 150px;
+    margin-left: 20px;
 }
 
-.checkbox label{
+.check label{
     font-size: 1.2rem;
+    margin-left: 150px;
+
+}
+
+.check input{
+    margin-left: 10px;
 }
 
 input[type=checkbox]{
@@ -358,7 +380,7 @@ input[type=checkbox]{
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    margin-left: 350px;
+    margin-left: 300px;
     justify-content: center;
     align-items: center;
 }

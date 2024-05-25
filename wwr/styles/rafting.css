@@ -14,12 +14,13 @@
     --nav-link-color: #a4ac86;
     --nav-hover-link-color: #fefae0; 
     --nav-hover-background-color: #bc6c25;
+    --border-color: #C9D3DD;
 
 }
 
 * {
     width: 900px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0rem;
     box-sizing: border-box;
 }
@@ -76,8 +77,8 @@ body {
 }
 
 .history h2 {
-    left: 420px;
-    top: 920px;
+    margin-left: 370px;
+    
     position: absolute;
     justify-content: center;
     width: 100px;
@@ -87,6 +88,7 @@ body {
 }
 
 .history img {
+    margin-top: 20px;
     align-self: center;
     height: 200px;
     position: relative;
@@ -138,7 +140,7 @@ article {
 }
 
 .adventure {
-    border-top: 4px solid ;
+    border-top: 2px solid var(--border-color) ;
     background-color: #A3B18A;
     padding: 1rem;
     display: flex;
