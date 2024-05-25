@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+:root {
+    --primary-color: #3A5A40;
+    --secondary-color: #000000;
+    --accent1-color: #A3B18A;
+    --accent2-color: #DAD7CD;
+
+    --heading-font: 'Kanit', serif;
+    --paragraph-font: 'Montserrat', 'serif';
+
+    --nav-background-color: #344E41;
+    --nav-link-color: #a4ac86;
+    --nav-hover-link-color: #fefae0; 
+    --nav-hover-background-color: #bc6c25;
+    --border-color: #C9D3DD
+
+}
+
+* {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+nav {
+    align-items:center ;
+    display: flex;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+
+}
+
+nav a { 
+    justify-content: space-around;
+    width: auto;
+    color: var(--secondary-color);
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    max-height: 50px;
+}
+
+nav a:link, nav a:visited {
+    color: var(--accent2-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+#titu{
+    padding: 0px;
+    text-align: center;
+}
+
+header {
+    grid-template-columns: repeat(auto-fit, minmax(25px, .15fr));
+}
+
+header img {
+    float: right;
+    width: 7rem;    
+}
+
+header, footer {
+    display: grid;
+    max-width: 900px;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 1rem;
+}
+
+
+/* Top part*/
+
+.top{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 2rem;
+    height: 250px;
+}
+
+.top h1 {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 800px;
+}
+
+.top h4 {
+    margin: 0 auto;
+    align-items: center;
+    width: 500px;
+}
+
+.rectangle1, .rectangle2 {
+    
+    display: inline-block;
+    margin: 20px;
+    margin-top: 40px;
+	width: 286px;
+	height: 185px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #C9D3DD;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.rectangle1 b, .rectangle2 b {
+    margin: 0 auto;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    
+}
+
+.rectangle1 p, .rectangle2 p{
+    font-size: small;
+    display: grid;
+    padding: 5px;
+    margin: 0 auto;
+    width: 250px;
+    }
+
+.rectangle1 a{
+    color: #000000;
+    margin: 0 auto;
+
+}
+
+.rectangle2 button{
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #C9D3DD;
+    
+}
+
+.rectangle2 button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.blank{
+    height: 200px;
+
+}
+
+
+/*The Map part*/
+
+
+.location{
+    display: flex;
+    border-top: 2px solid var(--border-color);
+    
+}
+
+.location aside{
+    display: grid;
+    padding: 30px;
+    margin: 10px;
+    width: 350px;
+    align-self: flex;
+}
+
+.location iframe{
+    margin: 0 auto;
+    align-self: flex-end;
+    width: 500px; 
+    height: 650px;
+}
+
+/*  Employees part */
+
+.employees {
+    margin: 0 auto;
+    border-top: 2px solid var(--border-color);
+    background-color: var(--accent1-color);
+    padding-top: 2rem;
+    display: flex;
+    
+}
+
+
+.employees h2 {
+
+    padding: 1rem;
+    align-self: center;
+    justify-content: center;
+    display: block;
+    position: relative;
+}
+
+.employees figure {
+    width: 200px;
+    margin: 20px;
+    
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+
+    
+}
+
+.employees img {
+    align-self: center;
+    width: 150px;
+    grid-column:2/3;
+    grid-row: 2;
+
+    margin: 0 auto;
+}
+
+
+/* Form part */
+
+.form{
+    padding: 3rem;
+    border: 1.5px solid var(--border-color);
+    background-color: var(--accent2-color);
+    display: grid;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.form h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.form p{
+    text-align: center;
+    padding: 20px;
+}
+
+.text label, textarea {
+
+    margin-left: 150px;
+    text-align: left;
+    width: 400px;
+    padding: 5px;
+    font-size: 1.2rem;
+
+}
+
+.text input{
+    justify-content: center;
+    margin-left: 150px;
+    margin: 10px;
+    text-align: left;
+    border: 2px solid var(--border-color);
+    width: 400px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+fieldset legend{
+    margin-left: 150px;
+    text-align: left;
+    
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+fieldset{
+    overflow: hidden;
+    margin: 20px;
+    justify-content: center;
+    border: none;
+    display: grid;
+    align-items: center;
+}
+
+
+input[type=radio] {
+    margin: 0.4rem;
+    background-color: #000000;
+}
+
+
+.radio{
+    font-size: 1.2rem;
+    margin-left: 150px; 
+    display: inline-block;
+}
+
+
+.message{
+    font-size: 1.2rem;
+    margin-left: 200px;
+}
+.message textarea{
+    margin: 10px;
+}
+
+
+.checkbox{
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 150px;
+}
+
+.checkbox label{
+    font-size: 1.2rem;
+}
+
+input[type=checkbox]{
+    
+    height: 20px;
+}
+
+
+
+
+.form button{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 180px;
+    background-color:var(--nav-background-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin-left: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form button:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+a img {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: end;
+    width: 40px;
+    text-decoration: none;
+    
+}
+
+footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+
+footer p {
+    font-size: medium;
+    padding: 1rem;
+    justify-content: center;
+    display: inline-block;
+    width: 840px;
+    color: var(--accent2-color);
+    ;
+}
+
