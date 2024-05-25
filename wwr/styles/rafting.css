@@ -319,6 +319,7 @@ footer p {
 }
 
 .location iframe{
+    border: none;
     margin: 0 auto;
     align-self: flex-end;
     width: 500px; 
