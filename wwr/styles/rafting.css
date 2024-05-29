@@ -9,7 +9,6 @@
 
     --heading-font: 'Kanit', serif;
     --paragraph-font: 'Montserrat', 'serif';
-
     --nav-background-color: #344E41;
     --nav-link-color: #a4ac86;
     --nav-hover-link-color: #fefae0; 
@@ -23,6 +22,12 @@
     margin: 0 auto;
     padding: 0rem;
     box-sizing: border-box;
+}
+
+.rectangle2 button:hover, .form button:hover, a:hover, .trips_hero a:hover, .booking button:hover, .index_top a, .newsletter button:hover, .container button:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
 }
 
 nav {
@@ -48,10 +53,7 @@ nav a:link, nav a:visited {
     color: var(--accent2-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -293,10 +295,7 @@ footer p {
     
 }
 
-.rectangle2 button:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
+
 
 .blank{
     height: 200px;
@@ -518,10 +517,7 @@ input[type=checkbox]{
     align-items: center;
 }
 
-.form button:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
+
 
 
 a img {
@@ -600,10 +596,7 @@ footer p {
     color: var(--accent2-color);
 }
 
-.trips_hero a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
+
 
 
 
@@ -634,10 +627,6 @@ footer p {
 
 }
 
-/*
-.btn:hover {
-    transform: translateY(-20px);
-  }*/
 
 
 
@@ -740,11 +729,6 @@ footer p {
     background-color: var(--accent2-color);
 }
 
-.booking button:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
 
 /* TABLE OF AVAILIBLE TRIPS */
 
@@ -844,10 +828,6 @@ footer p {
     border: none;
 }
 
-.index_top a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
 
 
 
@@ -901,10 +881,6 @@ footer p {
     padding: 5px;
 }
 
-.newsletter button:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
 
 
 /* WELCOME MESSAGE */
@@ -1039,11 +1015,5 @@ footer p {
     text-align: center;
     width: 400px;
     padding: 5px;
-
-}
-
-.container button:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
 
 }
